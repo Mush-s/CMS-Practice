@@ -50,7 +50,6 @@ $query = "DELETE FROM posts WHERE post_id = {$postValueId}  ";
 confirmQuery($update_to_delete_status);
 
             
-            
          break;
 
 
