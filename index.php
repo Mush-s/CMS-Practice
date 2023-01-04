@@ -62,7 +62,7 @@
         $find_count = mysqli_query($connection,$post_query_count);
         $count = mysqli_num_rows($find_count);
 
-        if($count < 1) {
+        if($count < 0) {
 
 
             echo "<h1 class='text-center'>No posts available</h1>";

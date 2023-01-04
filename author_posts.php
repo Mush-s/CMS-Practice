@@ -27,7 +27,7 @@
 
     
                 
-    $query = "SELECT * FROM posts WHERE post_user = '{$the_post_author}' ";
+    $query = "SELECT * FROM posts  ";
     $select_all_posts_query = mysqli_query($connection,$query);
 
     while($row = mysqli_fetch_assoc($select_all_posts_query)) {
