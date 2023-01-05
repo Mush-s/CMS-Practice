@@ -24,7 +24,6 @@
         
          }
 
-
     if(isset($_POST['update_post'])) {
         
         
